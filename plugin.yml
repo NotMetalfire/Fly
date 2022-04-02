@@ -1,0 +1,15 @@
+name: Fly
+version: 1.0
+api: 4.0.0
+author: TricolorAsp1209
+main: Fly\Main 
+
+commands:
+ fly:
+  description: Mettiti in Fly
+  permission: fly.cmd 
+  
+permissions:
+ fly.cmd:
+  description: Ti sei messo in Fly!
+  default: true
